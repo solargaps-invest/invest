@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer base {
+  html {
+    background-color: #111111;
+    color: #ffffff;
+  }
+
+  body,
+  p,
+  a,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  button {
+    background: none;
+    display: inline-block;
+  }
+
+  a {
+    cursor: pointer;
+  }
+
+  * {
+    scroll-behavior: smooth;
+  }
+}
+.slick-slide > div {
+  margin: 0 13px;
+}
+
+.slick-list {
+  margin: 0 13px;
+}
+
+@media screen and (max-width: 766px) {
+  .slick-track,
+  .slick-list {
+    max-height: 300px;
+  }
+}
