@@ -6,10 +6,10 @@ export const styles = {
 	navBarDesk: 'hidden items-center xl:flex xl:flex-1 xl:justify-end',
 	navBarMob: 'block justify-end xl:hidden bg-background-primary',
 
-	sectionLayout: `mx-auto max-w-[80rem] py-6 px-6 xl:px-14 xl:py-14`,
-	sectionHero: ' flex-wrap lg:flex-nowrap mx-auto max-w-[80rem] pt-32 pb-12 px-6 xl:pt-[6.25rem] xl:pb-[3.5rem] xl:px-14 gap-[4.5rem]',
+	sectionLayout: `mx-auto max-w-[87rem] py-6 px-6 xl:px-14 xl:py-14`,
+	sectionHero: ' flex-wrap lg:flex-nowrap mx-auto max-w-[87rem] pt-32 pb-12 px-6 xl:pt-[6.25rem] xl:pb-[3.5rem] xl:px-14 gap-[4.5rem]',
 	sectionImgBg: 'bg-no-repeat bg-cover bg-center',
-	sectionImgLayout: 'mx-auto max-w-[80rem] my-6 mx-6 xl:mx-14 xl:my-14',
+	sectionImgLayout: 'mx-auto max-w-[87rem] my-6 mx-6 xl:mx-14 xl:my-14',
 
 	flexSection: 'flex justify-between flex-wrap gap-5 xl:gap-12',
 	section60: 'w-full  xl:flex-60',
@@ -22,6 +22,8 @@ export const styles = {
 	h4: 'text-xl xl:text-2xl font-semibold ',
 	h5: 'text-base xl:text-2xl font-semibold tracking-tight',
 	h6: 'text-sm xl:text-xl font-semibold tracking-tight',
+
+	cardSpan: 'text-sm ont-medium',
 
 	h3Padding: 'pb-8 xl:pb-12',
 	h3PaddingSm: 'pb-3',

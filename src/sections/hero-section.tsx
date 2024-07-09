@@ -4,6 +4,7 @@ import { heroSection } from '../constants/content-constants';
 import { AnchorButton } from '../components/anchor-button/anchor-button.component';
 
 // TODO: text content to style
+// TODO:  text yellow 
 
 export const HeroSection = () => {
 	const { header, paragraph, button } = heroSection;

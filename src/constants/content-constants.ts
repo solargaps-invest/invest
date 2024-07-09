@@ -82,7 +82,26 @@ export const heroSection = {
 	paragraph:
 		'Smart blinds automatically track the sun, producing energy while keeping your building cool. Using the abundant vertical space, SolarGaps blinds block heat entering through the windows and reduce air conditioning usage.',
 };
-
+export const statisticSection = {
+	cards: [
+		{
+			title: 'Previously Crowdfunded',
+			value: '886 678 $',
+		},
+		{
+			title: 'Min. Invest',
+			value: '499,33 $',
+		},
+		{
+			title: 'Investors',
+			value: '102',
+		},
+		{
+			title: 'Valuation',
+			value: '$15.03M',
+		},
+	],
+};
 // export const quoteSection = {
 // 	quote1: '“The idea to combine solar panels and blinds struck me when I saw sunflowers in the field turning to face the sun.',
 // 	quote2: 'With my invention, I wanted to claim that everyone is responsible for saving our planet.”',
