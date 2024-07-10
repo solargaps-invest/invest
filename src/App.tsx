@@ -1,11 +1,23 @@
-import { HeaderSection, HeroSection , StatisticSection} from './sections';
+import {
+	HeaderSection,
+	HeroSection,
+	StatisticSection,
+	ReasonsToInvestSection,
+	TractionSection,
+	RevenueSection,
+	MilestonesSection,
+} from './sections';
 
 function App() {
 	return (
 		<div>
 			<HeaderSection />
 			<HeroSection />
-      <StatisticSection/>
+			<StatisticSection />
+			<ReasonsToInvestSection />
+			<TractionSection />
+			<RevenueSection />
+			<MilestonesSection />
 		</div>
 	);
 }

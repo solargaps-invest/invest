@@ -15,6 +15,7 @@ export default {
 				'brand-grey': '#66666B',
 				'brand-grey-secondary': '#1F1F1F',
 				'brand-grey-tertiary': '#777E90',
+				'dark-grey': ' rgba(255, 255, 255, 0.1)',
 				'brand-blue-primary': 'rgba(27, 231, 255, 1)',
 				'brand-green-primary': '#00FFA3',
 			},
@@ -29,11 +30,13 @@ export default {
 				'3.5xl': ['2rem', '2rem'], //32px
 				'4xl': ['2.25rem', '2.5rem'], //36px - 40px
 				'5xl': ['3rem', '4rem'], //48px - 60px - TODO: keep this
+				'6xl': ['4rem', '4rem'], //64px - 64px
 				'8xl': ['5.75rem', '7rem'], //92px - 112px
 			},
 			backgroundImage: {
 				'background-hero': "url('./assets/hero-bg-img.svg')",
 				'background-building': "url('./assets/bg-building.svg')",
+				'custom-radial': 'radial-gradient(90.63% 73.44% at 50% 0%, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%)',
 			},
 			dropShadow: {
 				hero: ' 0px 12px 24px 0px rgba(249, 205, 86, 0.25)',
@@ -41,8 +44,8 @@ export default {
 			flex: {
 				20: '1 1 20%',
 				40: '1 1 32%',
-        44: '1 1 44%',
-        50: '1 1 50%',
+				44: '1 1 44%',
+				50: '1 1 50%',
 				60: '1 1 59%',
 			},
 			maxWidth: {

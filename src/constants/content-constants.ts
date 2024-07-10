@@ -1,8 +1,11 @@
 import {
-	// iconWallet,
+	iconWallet,
 	// iconAuto,
-	// iconCO2,
-	// iconFlash,
+	iconCO2,
+	iconFlash,
+	iconDollar,
+	iconHouse,
+	iconPackage,
 	// iconLeaf,
 	// iconPhone,
 	// videoPlaceholder,
@@ -21,7 +24,7 @@ import {
 	// exampleHouse,
 	logo,
 	// bgBuilding,
-	// imgGlobe,
+	imgGlobe,
 	// imgYevgen,
 	// imgOleksandr,
 	// imgAndrew,
@@ -29,6 +32,7 @@ import {
 	// imgTechCrunch,
 	// imgInterSolar,
 	// bgBuildingXs,
+	revenueChart,
 } from '../assets';
 
 export const navLinks = [
@@ -102,61 +106,125 @@ export const statisticSection = {
 		},
 	],
 };
-// export const quoteSection = {
-// 	quote1: '“The idea to combine solar panels and blinds struck me when I saw sunflowers in the field turning to face the sun.',
-// 	quote2: 'With my invention, I wanted to claim that everyone is responsible for saving our planet.”',
-// 	author: 'YEVGEN ERIK, CEO',
-// };
 
-// export type WhyUsCardIcon = { src: string; description: string };
+export const reasonsToInvestSection = {
+	header: 'Reasons to innvest',
+	cards: [
+		{
+			title: '4M+ Yearly revenue',
+			icon: {
+				src: `${iconDollar}`,
+				description: 'dollar',
+			},
+		},
+		{
+			title: '300+ Yearly installations',
+			icon: {
+				src: `${iconHouse}`,
+				description: 'house',
+			},
+		},
+		{
+			title: 'Reducing carbon footprint',
+			icon: {
+				src: `${iconCO2}`,
+				description: 'co2',
+			},
+		},
+		{
+			title: '20+ Distributors worldwide',
+			icon: {
+				src: `${iconPackage}`,
+				description: 'package',
+			},
+		},
+		{
+			title: 'Lower your bills by 30%',
+			icon: {
+				src: `${iconWallet}`,
+				description: 'wallet',
+			},
+		},
+		{
+			title: 'Generate up to 100Wh',
+			icon: {
+				src: `${iconFlash}`,
+				description: 'flash',
+			},
+		},
+	],
+};
 
-// export const whyUsSection = {
-// 	header: 'Why choose\nSolarGaps?',
-// 	cards: [
-// 		{
-// 			title: 'Lower your bills by 30%',
-// 			icon: {
-// 				src: `${iconWallet}`,
-// 				description: 'wallet',
-// 			},
-// 		},
-// 		{
-// 			title: 'Generate up to 100Wh',
-// 			icon: {
-// 				src: `${iconFlash}`,
-// 				description: 'flash',
-// 			},
-// 		},
-// 		{
-// 			title: 'Smart auto shading mode',
-// 			icon: {
-// 				src: `${iconAuto}`,
-// 				description: 'auto',
-// 			},
-// 		},
-// 		{
-// 			title: 'Control with Mobile App',
-// 			icon: {
-// 				src: `${iconPhone}`,
-// 				description: 'phone',
-// 			},
-// 		},
-// 		{
-// 			title: 'Eco lifestyle',
-// 			icon: {
-// 				src: `${iconLeaf}`,
-// 				description: 'wallet',
-// 			},
-// 		},
-// 		{
-// 			title: 'Reducing carbon footprint',
-// 			icon: {
-// 				src: `${iconCO2}`,
-// 				description: 'co2',
-// 			},
-// 		},
-// 	],
-// };
+export const tractionSection = {
+	id: 'traction',
+	header: 'Traction',
+	subTitle: 'International Presence',
+	cards: {
+		img: {
+			src: `${imgGlobe}`,
+			description: 'Global partnership map',
+		},
+		bullets: [
+			{ title: 'Headquarters', iconColor: `text-brand-yellow` },
+			{ title: 'Manufacturing', iconColor: `text-brand-blue-primary` },
+			{ title: 'Distributors', iconColor: `text-brand-green-primary` },
+		],
+		installations: {
+			title: 'Installations',
+			value: '300+',
+		},
+		distributor: {
+			title: 'Distributor',
+			value: '20+',
+		},
+	},
+};
+
+export const revenueSection = {
+	subTitle: 'Revenue projections',
+	img: {
+		src: `${revenueChart}`,
+		description: 'Chat of revenue projections',
+	},
+};
+
+export const milestonesSection = {
+	header: 'Milestones',
+	cards: [
+		{
+			year: '2016',
+			description: 'NASA AMES Center Singularity University First Patent Received',
+		},
+		{
+			year: '2017',
+			description: 'Top Silicon Valley Startups HAX Accelerator Svief Star Award',
+		},
+		{
+			year: '2018',
+			description: `CE Certification Declaration Of Performance Declaration Of Conformity Amazon Innovation Award`,
+		},
+		{
+			year: '2019',
+			description: 'PCT Patent SmarterE Award Full-Scale Manufacturing',
+		},
+		{
+			year: '2020',
+			description: `Horizon 2020 EUR 1M Grant German Design Award Katerva Sustainability Award `,
+		},
+		{
+			year: '2021',
+			description: `B2B Product Development Dubai World Expo 2020 NaN Arquitectura Award`,
+		},
+		{
+			year: '2022',
+			description: `BMS integrations for B2B sector New production lines concepts and prototypes Eurobrico Innovation Award`,
+		},
+		{
+			year: '2023',
+			description: `Increasing product awareness PCT patent expansion for major European countries Tektonica Lisbon Innovation Award`,
+		},
+	],
+};
 
 // export const howItWorksSection = {
 // 	header: 'How it works',
@@ -327,38 +395,6 @@ export const statisticSection = {
 // 			},
 // 		],
 // 	},
-// };
-
-// export type MilestoneCard = (typeof milestonesSection.cards)[0];
-
-// export const milestonesSection = {
-// 	header: 'Milestones',
-// 	cards: [
-// 		{
-// 			year: '2016',
-// 			description: 'NASA AMES Center Singularity University First Patent Received',
-// 		},
-// 		{
-// 			year: '2017',
-// 			description: 'Top Silicon Valley Startups HAX Accelerator Svief Star Award',
-// 		},
-// 		{
-// 			year: '2017',
-// 			description: 'CE Certification Declaration Of Performance Declaration Of Conformity\nAmazon Innovation Award',
-// 		},
-// 		{
-// 			year: '2018',
-// 			description: 'PCT Patent SmarterE Award Full-Scale Manufacturing',
-// 		},
-// 		{
-// 			year: '2019',
-// 			description: 'Horizon 2020 EUR 1M Grant German Design Award Katerva Sustainability Award',
-// 		},
-// 		{
-// 			year: '2020',
-// 			description: 'B2B Product Development Dubai World Expo 2020 NaN Arquitectura Award',
-// 		},
-// 	],
 // };
 
 // export type BulletsKeys = keyof typeof partnershipsSection.cards.bullets;

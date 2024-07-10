@@ -1,8 +1,8 @@
-// import iconWallet from './icon-wallet.svg';
+import iconWallet from './icon-wallet.svg';
 // import iconPhone from './icon-phone.svg';
 // import iconLeaf from './icon-leaf.svg';
-// import iconFlash from './icon-flash.svg';
-// import iconCO2 from './icon-co2.svg';
+import iconFlash from './icon-flash.svg';
+import iconCO2 from './icon-co2.svg';
 // import iconAuto from './icon-auto.svg';
 // import heroBgImg from './hero-bg-img.svg';
 // import bgBuilding from './bg-building.jpeg';
@@ -22,20 +22,28 @@
 // import ecoHouse from './eco-house.jpeg';
 // import exampleHouse from './example-house.jpeg';
 import logo from './logo.svg';
-// import imgGlobe from './img-globe.svg';
+import imgGlobe from './img-globe.svg';
 // import imgYevgen from './img-Yevgen.jpg';
 // import imgOleksandr from './img-Oleksandr.jpg';
 // import imgAndrew from './img-Andrew.jpg';
 // import imgInterSolar from './img-inter-solar.svg';
 // import imgYankoDesign from './img-yanko-design.svg';
 // import imgTechCrunch from './img-tech-crunch.svg';
+import iconDollar from './icon-dollar.svg';
+import iconHouse from './icon-house.svg';
+import iconPackage from './icon-package.svg';
+import revenueChart from './revenue-chart.svg';
 
 export {
-	// iconWallet,
+	iconWallet,
+	iconDollar,
 	// iconPhone,
 	// iconLeaf,
-	// iconFlash,
-	// iconCO2,
+	iconFlash,
+	iconCO2,
+	iconHouse,
+	iconPackage,
+	revenueChart,
 	// iconAuto,
 	// heroBgImg,
 	// bgBuilding,
@@ -55,7 +63,7 @@ export {
 	// ecoHouse,
 	// exampleHouse,
 	logo,
-	// imgGlobe,
+	imgGlobe,
 	// imgYevgen,
 	// imgOleksandr,
 	// imgAndrew,
