@@ -26,9 +26,9 @@ import imgGlobe from './img-globe.svg';
 // import imgYevgen from './img-Yevgen.jpg';
 // import imgOleksandr from './img-Oleksandr.jpg';
 // import imgAndrew from './img-Andrew.jpg';
-// import imgInterSolar from './img-inter-solar.svg';
-// import imgYankoDesign from './img-yanko-design.svg';
-// import imgTechCrunch from './img-tech-crunch.svg';
+import imgInterSolar from './img-inter-solar.svg';
+import imgYankoDesign from './img-yanko-design.svg';
+import imgTechCrunch from './img-tech-crunch.svg';
 import iconDollar from './icon-dollar.svg';
 import iconHouse from './icon-house.svg';
 import iconPackage from './icon-package.svg';
@@ -43,7 +43,8 @@ import iconTechCrunch from './icon-tech-crunch.svg';
 import iconYankoDesign from './icon-yanko-design.svg';
 import iconDigitalTends from './icon-digital-tends.svg';
 import iconAttn from './icon-attn.svg';
-
+import iconVector from './icon-vector.svg';
+import iconCo2Red from './icon-co2-red.svg';
 export {
 	iconWallet,
 	iconDollar,
@@ -77,9 +78,9 @@ export {
 	// imgYevgen,
 	// imgOleksandr,
 	// imgAndrew,
-	// imgInterSolar,
-	// imgYankoDesign,
-	// imgTechCrunch,
+	imgInterSolar,
+	imgYankoDesign,
+	imgTechCrunch,
 	iconCnet,
 	iconGnc,
 	iconInnovationNation,
@@ -90,4 +91,6 @@ export {
 	iconYankoDesign,
 	iconDigitalTends,
 	iconAttn,
+	iconVector,
+	iconCo2Red,
 };

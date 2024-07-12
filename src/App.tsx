@@ -7,8 +7,10 @@ import {
 	RevenueSection,
 	MilestonesSection,
 	AwardsSection,
-  DownloadInvestorDeckSection,
-  FeaturedOnSection
+	DownloadInvestorDeckSection,
+	FeaturedOnSection,
+	PressAboutUsSection,
+	ProblemSolutionSection,
 } from './sections';
 
 function App() {
@@ -23,7 +25,9 @@ function App() {
 			<MilestonesSection />
 			<AwardsSection />
 			<DownloadInvestorDeckSection />
-      <FeaturedOnSection />
+			<FeaturedOnSection />
+			<PressAboutUsSection />
+			<ProblemSolutionSection />
 		</div>
 	);
 }

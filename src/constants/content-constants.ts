@@ -28,9 +28,9 @@ import {
 	// imgYevgen,
 	// imgOleksandr,
 	// imgAndrew,
-	// imgYankoDesign,
-	// imgTechCrunch,
-	// imgInterSolar,
+	imgYankoDesign,
+	imgTechCrunch,
+	imgInterSolar,
 	// bgBuildingXs,
 	revenueChart,
 	iconCnet,
@@ -43,6 +43,8 @@ import {
 	iconYankoDesign,
 	iconAttn,
 	iconDigitalTends,
+	iconVector,
+	iconCo2Red,
 } from '../assets';
 
 export const navLinks = [
@@ -345,6 +347,89 @@ export const awardsSection = {
 	],
 };
 
+export const pressAboutUsSection = {
+	header: 'Press About us',
+	cards: [
+		{
+			title: 'Your windows become powerful with SolarGaps',
+			subtitle: 'TechCrunch',
+			button: 'READ MORE',
+			date: 'May 31, 2017',
+			img: { src: `${imgTechCrunch}`, description: '' },
+		},
+		{
+			title: 'Charge your Tesla and lower your electric bill with these Solar blinds',
+			subtitle: 'Yanko Design',
+			button: 'READ MORE',
+			date: 'February 2, 2020',
+			img: { src: `${imgYankoDesign}`, description: '' },
+		},
+		{
+			title: `The finalist of ‘The smarter Eʼ 2019in the category ‘Smart Renewable Energy`,
+			subtitle: 'InterSolar',
+			button: 'READ MORE',
+			date: 'February 2, 2020',
+			img: { src: `${imgInterSolar}`, description: '' },
+		},
+	],
+};
+
+export const problemSolutionSection = {
+	header: 'Problem & Solution',
+	section1: {
+		img: { src: `${imgInterSolar}`, description: '' },
+		bullets: [
+			{
+				title: 'Global warming',
+				icon: {
+					src: `${iconCo2Red}`,
+					description: '',
+				},
+			},
+			{
+				title: '37% of electricity is spent in cities on air conditioning',
+				icon: {
+					src: `${iconCo2Red}`,
+					description: '',
+				},
+			},
+			{
+				title: 'Smart cities are limited in space for solar panels',
+				icon: {
+					src: `${iconCo2Red}`,
+					description: '',
+				},
+			},
+		],
+	},
+	section2: {
+		img: { src: `${imgInterSolar}`, description: '' },
+		bullets: [
+			{
+				title: 'Reducing carbon footprint',
+				icon: {
+					src: `${iconCO2}`,
+					description: '',
+				},
+			},
+			{
+				title: 'Increase energy efficiency',
+				icon: {
+					src: `${iconVector}`,
+					description: '',
+				},
+			},
+			{
+				title: 'Smart solution for smart cities',
+				icon: {
+					src: `${iconCO2}`,
+					description: '',
+				},
+			},
+		],
+	},
+};
+
 // // TODO: reneme src to img or icon
 
 // export type ProductCard = typeof productsSection.products.blinds;
@@ -519,33 +604,6 @@ export const awardsSection = {
 // 			title: 'Andrew Koval',
 // 			subtitle: 'CTO',
 // 			img: { src: `${imgAndrew}`, description: 'Photo of CTO' },
-// 		},
-// 	],
-// };
-
-// export const pressAboutUsSection = {
-// 	header: 'Press About us',
-// 	cards: [
-// 		{
-// 			title: 'Your windows become powerful with SolarGaps',
-// 			subtitle: 'TechCrunch',
-// 			button: 'READ MORE',
-// 			date: 'May 31, 2017',
-// 			img: { src: `${imgTechCrunch}`, description: '' },
-// 		},
-// 		{
-// 			title: 'Charge your Tesla and lower your electric bill with these Solar blinds',
-// 			subtitle: 'Yanko Design',
-// 			button: 'READ MORE',
-// 			date: 'February 2, 2020',
-// 			img: { src: `${imgYankoDesign}`, description: '' },
-// 		},
-// 		{
-// 			title: `The finalist of ‘The smarter Eʼ 2019in the category ‘Smart Renewable Energy`,
-// 			subtitle: 'InterSolar',
-// 			button: 'READ MORE',
-// 			date: 'February 2, 2020',
-// 			img: { src: `${imgInterSolar}`, description: '' },
 // 		},
 // 	],
 // };
