@@ -33,6 +33,16 @@ import {
 	// imgInterSolar,
 	// bgBuildingXs,
 	revenueChart,
+	iconCnet,
+	iconGnc,
+	iconInnovationNation,
+	iconInterSolar,
+	iconMashable,
+	iconSingularity,
+	iconTechCrunch,
+	iconYankoDesign,
+	iconAttn,
+	iconDigitalTends,
 } from '../assets';
 
 export const navLinks = [
@@ -237,6 +247,51 @@ export const downloadInvestorDeckSection = {
 	policy: 'By submitting this form and signing up for texts, you consent to receive marketing text messages (e.g. promos, cart reminders) from SolarGaps at the number provided, including messages sent by autodialer. Consent is not a condition of purchase. Msg & data rates may apply. Msg frequency varies. Unsubscribe at any time by replying STOP or clicking the unsubscribe link (where available).',
 };
 
+export const featuredOnSection = {
+	header: 'Featured on',
+	cards: [
+		{
+			src: `${iconTechCrunch}`,
+			description: 'Tech Crunch',
+		},
+		{
+			src: `${iconCnet}`,
+			description: 'C net',
+		},
+		{
+			src: `${iconInterSolar}`,
+			description: 'Inter Solar',
+		},
+		{
+			src: `${iconYankoDesign}`,
+			description: 'Yanko Design',
+		},
+		{
+			src: `${iconDigitalTends}`,
+			description: 'Digital Tends',
+		},
+		{
+			src: `${iconMashable}`,
+			description: 'Mashable',
+		},
+		{
+			src: `${iconInnovationNation}`,
+			description: 'InnovationNation',
+		},
+		{
+			src: `${iconSingularity}`,
+			description: 'Singularity',
+		},
+		{
+			src: `${iconGnc}`,
+			description: 'GNC',
+		},
+		{
+			src: `${iconAttn}`,
+			description: 'ATTN',
+		},
+	],
+};
 // export const howItWorksSection = {
 // 	header: 'How it works',
 // 	paragraph:

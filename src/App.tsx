@@ -8,6 +8,7 @@ import {
 	MilestonesSection,
 	AwardsSection,
   DownloadInvestorDeckSection,
+  FeaturedOnSection
 } from './sections';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
 			<MilestonesSection />
 			<AwardsSection />
 			<DownloadInvestorDeckSection />
+      <FeaturedOnSection />
 		</div>
 	);
 }

@@ -33,6 +33,16 @@ import iconDollar from './icon-dollar.svg';
 import iconHouse from './icon-house.svg';
 import iconPackage from './icon-package.svg';
 import revenueChart from './revenue-chart.svg';
+import iconCnet from './icon-cnet.svg';
+import iconGnc from './icon-gnc.svg';
+import iconInnovationNation from './icon-innovation-nation.svg';
+import iconInterSolar from './icon-inter-solar.svg';
+import iconMashable from './icon-mashable.svg';
+import iconSingularity from './icon-singularity.svg';
+import iconTechCrunch from './icon-tech-crunch.svg';
+import iconYankoDesign from './icon-yanko-design.svg';
+import iconDigitalTends from './icon-digital-tends.svg';
+import iconAttn from './icon-attn.svg';
 
 export {
 	iconWallet,
@@ -70,4 +80,14 @@ export {
 	// imgInterSolar,
 	// imgYankoDesign,
 	// imgTechCrunch,
+	iconCnet,
+	iconGnc,
+	iconInnovationNation,
+	iconInterSolar,
+	iconMashable,
+	iconSingularity,
+	iconTechCrunch,
+	iconYankoDesign,
+	iconDigitalTends,
+	iconAttn,
 };
