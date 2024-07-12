@@ -6,6 +6,8 @@ import {
 	TractionSection,
 	RevenueSection,
 	MilestonesSection,
+	AwardsSection,
+  DownloadInvestorDeckSection,
 } from './sections';
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
 			<TractionSection />
 			<RevenueSection />
 			<MilestonesSection />
+			<AwardsSection />
+			<DownloadInvestorDeckSection />
 		</div>
 	);
 }

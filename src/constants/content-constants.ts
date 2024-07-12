@@ -9,11 +9,11 @@ import {
 	// iconLeaf,
 	// iconPhone,
 	// videoPlaceholder,
-	// awardsSmarter,
-	// awardsAmazon,
-	// awardsTechtour,
-	// awardsCop,
-	// awardsSvief,
+	awardsSmarter,
+	awardsAmazon,
+	awardsTechtour,
+	awardsCop,
+	awardsSvief,
 	// imgBlinds,
 	// imgInverter,
 	// imgMotor,
@@ -226,6 +226,17 @@ export const milestonesSection = {
 	],
 };
 
+export const downloadInvestorDeckSection = {
+	id: 'download-deck',
+	header: 'Download our Investor Deck',
+	inputPlaceholder: [
+		{ value: 'YOUR NAME', type: 'text', name: 'name' },
+		{ value: 'YOUR EMAIL', type: 'email', name: 'email' },
+		{ value: 'YOUR PHONE', type: 'tel', name: 'phone' },
+	],
+	policy: 'By submitting this form and signing up for texts, you consent to receive marketing text messages (e.g. promos, cart reminders) from SolarGaps at the number provided, including messages sent by autodialer. Consent is not a condition of purchase. Msg & data rates may apply. Msg frequency varies. Unsubscribe at any time by replying STOP or clicking the unsubscribe link (where available).',
+};
+
 // export const howItWorksSection = {
 // 	header: 'How it works',
 // 	paragraph:
@@ -233,53 +244,51 @@ export const milestonesSection = {
 // 	video: `${videoPlaceholder}`,
 // };
 
-// export type AwardCard = (typeof awardsSection.cards)[0];
-
-// export const awardsSection = {
-// 	header: 'Awards',
-// 	cards: [
-// 		{
-// 			title: 'The Smarter E',
-// 			icon: {
-// 				src: `${awardsSmarter}`,
-// 				description: 'awards-smarter',
-// 			},
-// 			subtitle: '2019, Germany',
-// 		},
-// 		{
-// 			title: 'Amazon',
-// 			icon: {
-// 				src: `${awardsAmazon}`,
-// 				description: 'awards-amazons',
-// 			},
-// 			subtitle: '2018, China',
-// 		},
-// 		{
-// 			title: 'TechTour',
-// 			icon: {
-// 				src: `${awardsTechtour}`,
-// 				description: 'awards-techTour',
-// 			},
-// 			subtitle: '2018, Poland',
-// 		},
-// 		{
-// 			title: 'COP 24',
-// 			icon: {
-// 				src: `${awardsCop}`,
-// 				description: 'awards-cop',
-// 			},
-// 			subtitle: '2018, Poland',
-// 		},
-// 		{
-// 			title: 'Svief Star',
-// 			icon: {
-// 				src: `${awardsSvief}`,
-// 				description: 'awards-smarter',
-// 			},
-// 			subtitle: '2017, China',
-// 		},
-// 	],
-// };
+export const awardsSection = {
+	header: 'Awards',
+	cards: [
+		{
+			title: 'The Smarter E',
+			icon: {
+				src: `${awardsSmarter}`,
+				description: 'awards-smarter',
+			},
+			subtitle: '2019, Germany',
+		},
+		{
+			title: 'Amazon',
+			icon: {
+				src: `${awardsAmazon}`,
+				description: 'awards-amazons',
+			},
+			subtitle: '2018, China',
+		},
+		{
+			title: 'TechTour',
+			icon: {
+				src: `${awardsTechtour}`,
+				description: 'awards-techTour',
+			},
+			subtitle: '2018, Poland',
+		},
+		{
+			title: 'COP 24',
+			icon: {
+				src: `${awardsCop}`,
+				description: 'awards-cop',
+			},
+			subtitle: '2018, Poland',
+		},
+		{
+			title: 'Svief Star',
+			icon: {
+				src: `${awardsSvief}`,
+				description: 'awards-smarter',
+			},
+			subtitle: '2017, China',
+		},
+	],
+};
 
 // // TODO: reneme src to img or icon
 
@@ -532,17 +541,6 @@ export const milestonesSection = {
 // 				'Please fill out the form “GET A QUOTE" on our website (be sure to specify the size of the window on which you are going to install SolarGaps facade blinds). We will send you a price estimation by mail.',
 // 		},
 // 	],
-// };
-
-// export const contactSection = {
-// 	id: 'contact-us',
-// 	header: 'Contact',
-// 	title: 'Any questions?',
-// 	inputPlaceholder: {
-// 		name: 'YOUR NAME',
-// 		email: 'YOUR EMAIL',
-// 		message: 'YOUR MESSAGE',
-// 	},
 // };
 
 // export const footer = {

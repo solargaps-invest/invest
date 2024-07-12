@@ -8,11 +8,11 @@ import iconCO2 from './icon-co2.svg';
 // import bgBuilding from './bg-building.jpeg';
 // import bgBuildingXs from './background-building-xs.jpg';
 // import videoPlaceholder from './video-placeholder.png';
-// import awardsAmazon from './awards-amazon.svg';
-// import awardsCop from './awards-cop.svg';
-// import awardsSmarter from './awards-smarter.svg';
-// import awardsSvief from './awards-svief.svg';
-// import awardsTechtour from './awards-techtour.svg';
+import awardsAmazon from './awards-amazon.svg';
+import awardsCop from './awards-cop.svg';
+import awardsSmarter from './awards-smarter.svg';
+import awardsSvief from './awards-svief.svg';
+import awardsTechtour from './awards-techtour.svg';
 // import imgBlinds from './img-blinds.svg';
 // import imgInverter from './img-inverter.svg';
 // import imgMotor from './img-motor.svg';
@@ -49,11 +49,11 @@ export {
 	// bgBuilding,
 	// bgBuildingXs,
 	// videoPlaceholder,
-	// awardsAmazon,
-	// awardsCop,
-	// awardsSmarter,
-	// awardsSvief,
-	// awardsTechtour,
+	awardsAmazon,
+	awardsCop,
+	awardsSmarter,
+	awardsSvief,
+	awardsTechtour,
 	// imgBlinds,
 	// imgInverter,
 	// imgMotor,

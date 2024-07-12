@@ -37,6 +37,7 @@ export default {
 				'background-hero': "url('./assets/hero-bg-img.svg')",
 				'background-building': "url('./assets/bg-building.svg')",
 				'custom-radial': 'radial-gradient(90.63% 73.44% at 50% 0%, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%)',
+				'background-yellow': 'linear-gradient(167.43deg, #FFD562 12.35%, #CB9914 93.89%)',
 			},
 			dropShadow: {
 				hero: ' 0px 12px 24px 0px rgba(249, 205, 86, 0.25)',

@@ -24,7 +24,7 @@ export const MilestonesSection = () => {
 
 	return (
 		<section className={styles.sectionLayout}>
-			<SectionHeader header={header} headerStyles={`${styles.h3Padding}`} />
+			<SectionHeader header={header} headerStyles={`${styles.h3PaddingSm}`} />
 			<Slider {...settings} className="max-h-[400px]">
 				{cards.map(item => (
 					<MilestoneCard key={item.description} {...item} />
