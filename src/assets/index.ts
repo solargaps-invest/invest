@@ -48,6 +48,7 @@ import iconCo2Red from './icon-co2-red.svg';
 import imgDrought from './img-drought.jpg';
 import imgPanelHome from './img-panel-home.jpg';
 import iconCo2White from './icon-co2-white.svg';
+import imgMarketChart from './img-market-chart.svg';
 
 // TODO: change co2
 export {
@@ -101,4 +102,5 @@ export {
 	imgDrought,
 	imgPanelHome,
 	iconCo2White,
+	imgMarketChart
 };

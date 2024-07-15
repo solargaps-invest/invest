@@ -1,6 +1,4 @@
 export const styles = {
-	text: ``,
-
 	header: `mx-auto flex max-w-[100rem] items-center justify-between px-6 xl:px-14 py-6 `,
 	navLink: 'inline-block px-3 xl:px-7 py-3 font-extrabold hover:text-brand-yellow',
 	navBarDesk: 'hidden items-center xl:flex xl:flex-1 xl:justify-end',
@@ -11,16 +9,11 @@ export const styles = {
 	sectionImgBg: 'bg-no-repeat bg-cover bg-center',
 	sectionImgLayout: 'mx-auto max-w-[87rem] my-6 mx-6 xl:mx-14 xl:my-14',
 
-	flexSection: 'flex justify-between flex-wrap gap-5 xl:gap-12',
 	sectionFlex: 'flex flex-wrap lg:flex-nowrap',
 	section40: ' w-full  xl:flex-40',
 	section44: ' w-full  xl:flex-44',
 	section37: 'w-full xl:flex-37',
 	section48: 'w-full xl:flex-48',
-
-	// sectionGrid: 'grid gap-6 grid-cols-8',
-	// section4: 'col-span-4',
-	// section3: 'col-span-3',
 
 	h1: 'text-5xl font-semibold tracking-tight xl:text-9xl',
 	h2: 'text-3xl xl:text-6xl font-semibold tracking-tight',

@@ -25,11 +25,11 @@ const GeneralSection = ({ section, sectionStyle, flexStyle }: GeneralSectionType
 	return (
 		<div className={sectionStyle}>
 			<div className={` ${styles.sectionLayout} ${styles.sectionFlex} items-center gap-[13%] ${flexStyle} `}>
-				<div className={` ${styles.section37} flex flex-col gap-8 xl:gap-16`}>
-					{section.bullets.map(bullet => (
-						<BulletRow key={bullet.title} {...bullet} />
+				<ul className={` ${styles.section37} flex flex-col gap-8 xl:gap-16`}>
+					{section.bulletItems.map(bulletItem => (
+						<ListItem key={bulletItem.title} {...bulletItem} />
 					))}
-				</div>
+				</ul>
 				<div className={` ${styles.section48} flex flex-col gap-5`}>
 					<img src={section.img.src} alt="" className="max-h-[416px] w-full object-cover" />
 				</div>
@@ -38,7 +38,7 @@ const GeneralSection = ({ section, sectionStyle, flexStyle }: GeneralSectionType
 	);
 };
 
-type BulletRowType = {
+type ListItemProps = {
 	title: string;
 	icon: {
 		src: string;
@@ -47,11 +47,11 @@ type BulletRowType = {
 	};
 };
 
-const BulletRow = (bullet: BulletRowType) => {
+const ListItem = (bullet: ListItemProps) => {
 	return (
-		<div className="flex items-center gap-4">
+		<li className="flex items-center gap-4">
 			<Icon styles={`rounded-2xl p-4 w-16 h-16 ${bullet.icon.background}`} icon={bullet.icon} />
 			<span className="text-3xl font-semibold">{bullet.title}</span>
-		</div>
+		</li>
 	);
 };

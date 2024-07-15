@@ -30,6 +30,7 @@ type PressCardProps = {
 			src: string;
 			description: string;
 		};
+		linkHref: string;
 	};
 };
 
@@ -37,7 +38,7 @@ type PressCardProps = {
 // TODO: update padding pr-16 to gap between elements
 
 const PressCard: FC<PressCardProps> = ({ card }) => {
-	const { title, subtitle, button, date, img } = card;
+	const { title, subtitle, button, date, img, linkHref } = card;
 	return (
 		<div className="border-brand-grey flex flex-col justify-center border-y py-8 lg:flex-row">
 			<div className="flex-32 flex flex-col gap-3 xl:flex-row xl:gap-0 xl:pr-16">
@@ -49,7 +50,7 @@ const PressCard: FC<PressCardProps> = ({ card }) => {
 			<div className="flex-59 flex flex-col gap-5 pt-5 xl:pt-0">
 				<h4 className={styles.h4}>{title}</h4>
 				<span className="text-brand-grey-tertiary text-base font-semibold xl:text-xl">{subtitle}</span>
-				<a href="#" className="text-brand-yellow text-base font-semibold xl:pt-3">
+				<a href={linkHref} className="text-brand-yellow text-base font-semibold xl:pt-3" target="_blank" rel="noopener noreferrer">
 					{button}
 				</a>
 			</div>

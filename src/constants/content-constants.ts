@@ -48,6 +48,7 @@ import {
 	imgDrought,
 	imgPanelHome,
 	iconCo2White,
+	imgMarketChart,
 } from '../assets';
 
 export const navLinks = [
@@ -180,7 +181,7 @@ export const tractionSection = {
 			src: `${imgGlobe}`,
 			description: 'Global partnership map',
 		},
-		bullets: [
+		bulletItems: [
 			{ title: 'Headquarters', iconColor: `text-brand-yellow` },
 			{ title: 'Manufacturing', iconColor: `text-brand-blue-primary` },
 			{ title: 'Distributors', iconColor: `text-brand-green-primary` },
@@ -360,6 +361,8 @@ export const pressAboutUsSection = {
 			button: 'READ MORE',
 			date: 'May 31, 2017',
 			img: { src: `${imgTechCrunch}`, description: '' },
+			linkHref:
+				'https://techcrunch.com/2017/05/31/solargaps-power-blinds/?guccounter=1&guce_referrer=aHR0cHM6Ly9zb2xhcmdhcHMuY29tLw&guce_referrer_sig=AQAAABbjHlCEzOmIv8WXc9p3CPt3H64mHKcq2KCKAmdiLiWaSKo4s8K5xIYEafCUUm8eAnPLYVzp-ucRTtDOrFDoK8xsvV9vKyxuaS57QUVfm5cscQWWnknYaLmV0b-43jwzoQF207X31Qoeh70TMoTDJDT9dD844GO5pIPNQXo-7NFz',
 		},
 		{
 			title: 'Charge your Tesla and lower your electric bill with these Solar blinds',
@@ -367,6 +370,7 @@ export const pressAboutUsSection = {
 			button: 'READ MORE',
 			date: 'February 2, 2020',
 			img: { src: `${imgYankoDesign}`, description: '' },
+			linkHref: 'https://www.yankodesign.com/2020/02/26/charge-your-tesla-and-lower-your-electric-bill-with-these-solar-blinds/',
 		},
 		{
 			title: `The finalist of ‘The smarter Eʼ 2019in the category ‘Smart Renewable Energy`,
@@ -374,6 +378,8 @@ export const pressAboutUsSection = {
 			button: 'READ MORE',
 			date: 'February 2, 2020',
 			img: { src: `${imgInterSolar}`, description: '' },
+			linkHref:
+				'https://www.thesmartere.de/news/the-smarter-e-award-2019-recognizing-groundbreaking-projects-for-the-news-energy-world',
 		},
 	],
 };
@@ -382,7 +388,7 @@ export const problemSolutionSection = {
 	header: 'Problem & Solution',
 	section1: {
 		img: { src: `${imgDrought}`, description: '' },
-		bullets: [
+		bulletItems: [
 			{
 				title: 'Global warming',
 				icon: {
@@ -411,7 +417,7 @@ export const problemSolutionSection = {
 	},
 	section2: {
 		img: { src: `${imgPanelHome}`, description: '' },
-		bullets: [
+		bulletItems: [
 			{
 				title: 'Reducing carbon footprint',
 				icon: {
@@ -459,6 +465,20 @@ export const marketHugeSection = {
 			title: 'Smart office market',
 			value: '$46B',
 		},
+	],
+};
+
+// TODO: rename bulletItems
+
+export const marketStructureSection = {
+	header: 'The Market Structure',
+	img: { src: `${imgMarketChart}`, description: 'Chart which show the percentage of each market segment' },
+	bulletItems: [
+		{ title: '30% - Office centers ', iconColor: `text-bullet-1` },
+		{ title: '15% - Private sector', iconColor: `text-bullet-2` },
+		{ title: '15% - Infrastructures', iconColor: `text-bullet-3` },
+		{ title: '18% - Retail & Hotels ', iconColor: `text-bullet-4` },
+		{ title: '22% - Municipal facilities', iconColor: `text-bullet-5` },
 	],
 };
 
@@ -578,8 +598,6 @@ export const marketHugeSection = {
 // 	},
 // };
 
-// export type BulletsKeys = keyof typeof partnershipsSection.cards.bullets;
-
 // export const partnershipsSection = {
 // 	id: 'partnership',
 // 	header: 'Partnerships',
@@ -591,7 +609,7 @@ export const marketHugeSection = {
 // 			src: `${imgGlobe}`,
 // 			description: 'Global partnership map',
 // 		},
-// 		bullets: [
+// 		bulletItems: [
 // 			{ title: 'Headquarters', iconColor: `text-brand-yellow` },
 // 			{ title: 'Manufacturing', iconColor: `text-brand-blue-primary` },
 // 			{ title: 'Distributors', iconColor: `text-brand-green-primary` },

@@ -18,6 +18,11 @@ export default {
 				'dark-grey': ' rgba(255, 255, 255, 0.1)',
 				'brand-blue-primary': 'rgba(27, 231, 255, 1)',
 				'brand-green-primary': '#00FFA3',
+				'bullet-1': '#FDF1D1',
+				'bullet-2': '#FCECBA',
+				'bullet-3': '#F9CD56',
+				'bullet-4': '#F0C759',
+				'bullet-5': '#D8B050',
 			},
 			fontSize: {
 				xxs: ['0.75rem', '1.25rem'], //12px - 20px
@@ -32,7 +37,7 @@ export default {
 				'5xl': ['3rem', '4rem'], //48px - 60px - TODO: keep this
 				'6xl': ['4rem', '4rem'], //64px - 64px
 				'8xl': ['5.75rem', '7rem'], //92px - 112px
-        '9xl' : ['7rem', '7rem'], //112px
+				'9xl': ['7rem', '7rem'], //112px
 			},
 			// TODO: rename bg
 			backgroundImage: {
@@ -49,7 +54,6 @@ export default {
 			dropShadow: {
 				hero: ' 0px 12px 24px 0px rgba(249, 205, 86, 0.25)',
 			},
-			// /TODO: rename flex % and remove
 			flex: {
 				20: '1 1 20%',
 				32: '1 1 32%',

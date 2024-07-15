@@ -1,12 +1,12 @@
-import { FaCircle } from 'react-icons/fa';
 import { SectionHeader } from '../components/section-header/section-header.component';
 import { tractionSection } from '../constants/content-constants';
 import { styles } from '../constants/style-constants';
 import { SubHeader } from '../components/sub-header/sub-header.component';
+import { BulletItem } from '../components/bullet-item/bullet-item.component';
 
 export const TractionSection = () => {
 	const { header, cards, subTitle } = tractionSection;
-	const { distributor, installations, bullets, img } = cards;
+	const { distributor, installations, bulletItems, img } = cards;
 	return (
 		<section className={styles.sectionLayout}>
 			<SectionHeader header={header} headerStyles={`${styles.headerPadding}`} />
@@ -16,11 +16,11 @@ export const TractionSection = () => {
 				<div className={`${styles.section48} flex flex-col gap-6`}>
 					<img src={img.src} alt="" className="max-h-[416px] w-full" />
 					<span className="sr-only">{img.description}</span>
-					<div className="flex flex-wrap items-center justify-center gap-10 gap-y-6">
-						{bullets.map((bullet, index) => (
-							<BulletRow key={index} bullet={bullet} />
+					<ul className="flex flex-wrap items-center justify-center gap-10 gap-y-6">
+						{bulletItems.map((bulletItem, index) => (
+							<BulletItem key={index} {...bulletItem} />
 						))}
-					</div>
+					</ul>
 				</div>
 
 				<div className={`${styles.section37} flex flex-col gap-5`}>
@@ -29,22 +29,6 @@ export const TractionSection = () => {
 				</div>
 			</div>
 		</section>
-	);
-};
-
-type BulletRowType = {
-	bullet: {
-		title: string;
-		iconColor: string;
-	};
-};
-
-const BulletRow = ({ bullet }: BulletRowType) => {
-	return (
-		<div className="flex gap-4">
-			<FaCircle className={` ${bullet.iconColor} `} size={24} />
-			<span className="text-light-secondary text-base">{bullet.title}</span>
-		</div>
 	);
 };
 
