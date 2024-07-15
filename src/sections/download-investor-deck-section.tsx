@@ -29,7 +29,7 @@ export const DownloadInvestorDeckSection = () => {
 	return (
 		<section id={id} className="bg-background-yellow">
 			<div className={`${styles.sectionLayout} flex flex-col items-center`}>
-				<SectionHeader header={header} headerStyles={`${styles.h3PaddingSm} text-background-primary`} />
+				<SectionHeader header={header} headerStyles={`${styles.headerPaddingSm} text-background-primary`} />
 				<form
 					onSubmit={onSubmit}
 					className="bg-background-primary bg-custom-radial flex w-full flex-col gap-6 rounded-2xl border p-12 md:max-w-[75%] lg:max-w-[50%] xl:gap-9"

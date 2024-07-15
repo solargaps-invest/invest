@@ -22,7 +22,7 @@ export const AwardsSection = () => {
 
 	return (
 		<section className={styles.sectionLayout}>
-			<SectionHeader header={header} headerStyles={`${styles.h3PaddingSm}`} />
+			<SectionHeader header={header} headerStyles={`${styles.headerPaddingSm}`} />
 			<div className="3xl:grid grid-cols-awards hidden gap-10">
 				{cards.map(award => (
 					<AwardCard key={award.title} title={award.title} subtitle={award.subtitle} icon={award.icon} />

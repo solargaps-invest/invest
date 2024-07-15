@@ -32,14 +32,19 @@ export default {
 				'5xl': ['3rem', '4rem'], //48px - 60px - TODO: keep this
 				'6xl': ['4rem', '4rem'], //64px - 64px
 				'8xl': ['5.75rem', '7rem'], //92px - 112px
+        '9xl' : ['7rem', '7rem'], //112px
 			},
+			// TODO: rename bg
 			backgroundImage: {
-				'background-hero': "url('./assets/hero-bg-img.svg')",
+				'hero-golden': "url('./assets/bg-hero-golden.svg')",
 				'background-building': "url('./assets/bg-building.svg')",
 				'custom-radial': 'radial-gradient(90.63% 73.44% at 50% 0%, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%)',
 				'background-yellow': 'linear-gradient(167.43deg, #FFD562 12.35%, #CB9914 93.89%)',
 				'yellow-gradient':
 					'radial-gradient(271.87% 220.31% at 50% -47.66%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%)',
+				'market-golden': "url('./assets/bg-market-golden.svg')",
+				'dark-grey-gradient':
+					'radial-gradient(232.45% 188.37% at 50% 0%, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 100%)',
 			},
 			dropShadow: {
 				hero: ' 0px 12px 24px 0px rgba(249, 205, 86, 0.25)',

@@ -20,7 +20,7 @@ type StatisticCardProps = {
 const StatisticCard = (statistic: StatisticCardProps) => {
 	const { title, value } = statistic;
 	return (
-		<div className="bg-custom-radial border-dark-grey flex flex-col items-center justify-center rounded-2xl border px-[4.2rem] py-4">
+		<div className="bg-custom-radial border-dark-grey flex flex-col items-center justify-center gap-1 rounded-2xl border py-4">
 			<span className={`${styles.cardSpan}`}>{title}</span>
 			<h3 className={`${styles.h3} text-brand-yellow`}>{value}</h3>
 		</div>

@@ -440,6 +440,28 @@ export const problemSolutionSection = {
 	},
 };
 
+export const competitionSection = {
+	header: 'Competition',
+};
+
+export const marketHugeSection = {
+	header: 'The Market Is Huge',
+	cards: [
+		{
+			title: 'Blinds & Shades market',
+			value: '$21B',
+		},
+		{
+			title: 'Cleantech market',
+			value: '$6.4T',
+		},
+		{
+			title: 'Smart office market',
+			value: '$46B',
+		},
+	],
+};
+
 // // TODO: reneme src to img or icon
 
 // export type ProductCard = typeof productsSection.products.blinds;

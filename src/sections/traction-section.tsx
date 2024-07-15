@@ -2,15 +2,15 @@ import { FaCircle } from 'react-icons/fa';
 import { SectionHeader } from '../components/section-header/section-header.component';
 import { tractionSection } from '../constants/content-constants';
 import { styles } from '../constants/style-constants';
-import { SubTitle } from '../components/sub-title/sub-title.component';
+import { SubHeader } from '../components/sub-header/sub-header.component';
 
 export const TractionSection = () => {
 	const { header, cards, subTitle } = tractionSection;
 	const { distributor, installations, bullets, img } = cards;
 	return (
 		<section className={styles.sectionLayout}>
-			<SectionHeader header={header} headerStyles={`${styles.h3Padding}`} />
-			<SubTitle subTitle={subTitle} subTitleStyles={`${styles.h4Padding}`} />
+			<SectionHeader header={header} headerStyles={`${styles.headerPadding}`} />
+			<SubHeader subHeader={subTitle} subHeaderStyles={`${styles.subHeaderPadding}`} />
 
 			<div className={`${styles.sectionFlex} items-center gap-[13%]`}>
 				<div className={`${styles.section48} flex flex-col gap-6`}>

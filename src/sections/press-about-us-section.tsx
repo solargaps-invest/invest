@@ -8,7 +8,7 @@ export const PressAboutUsSection = () => {
 
 	return (
 		<section className={styles.sectionLayout}>
-			<SectionHeader header={header} headerStyles={`${styles.h3Padding}`} />
+			<SectionHeader header={header} headerStyles={`${styles.headerPadding}`} />
 
 			<div className="grid grid-cols-1">
 				{cards.map(card => (

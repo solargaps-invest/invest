@@ -7,7 +7,7 @@ export const ReasonsToInvestSection = () => {
 	const { header, cards } = reasonsToInvestSection;
 	return (
 		<section className={styles.sectionLayout}>
-			<SectionHeader header={header} headerStyles={`${styles.h3PaddingSm}`} />
+			<SectionHeader header={header} headerStyles={`${styles.headerPaddingSm}`} />
 			<div
 				className={`bg-custom-radial grid grid-cols-2 grid-rows-3 gap-[5rem] rounded-2xl px-24 py-12 xl:grid-cols-3 xl:grid-rows-2`}
 			>

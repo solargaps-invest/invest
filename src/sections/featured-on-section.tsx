@@ -7,7 +7,7 @@ export const FeaturedOnSection = () => {
 	const { header, cards } = featuredOnSection;
 	return (
 		<section className={styles.sectionLayout}>
-			<SectionHeader header={header} headerStyles={`${styles.h3PaddingSm}`} />
+			<SectionHeader header={header} headerStyles={`${styles.headerPaddingSm}`} />
 			<div className="grid grid-cols-2 gap-4 xl:grid-cols-5 xl:grid-rows-2 xl:gap-6">
 				{cards.map(card => {
 					return <CategoryCard key={card.description} {...card} />;

@@ -9,7 +9,7 @@ export const ProblemSolutionSection = () => {
 	const { header, section1, section2 } = problemSolutionSection;
 	return (
 		<section>
-			<SectionHeader header={header} headerStyles={`${styles.h3PaddingSm}`} />
+			<SectionHeader header={header} headerStyles={`${styles.headerPaddingSm}`} />
 			<GeneralSection section={section1} sectionStyle="bg-custom-radial" />
 			<GeneralSection section={section2} sectionStyle="bg-background-yellow" flexStyle="flex-row-reverse" />
 		</section>

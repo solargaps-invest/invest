@@ -11,7 +11,9 @@ import {
 	FeaturedOnSection,
 	PressAboutUsSection,
 	ProblemSolutionSection,
-  HowItWorksSection
+	HowItWorksSection,
+	CompetitionSection,
+	MarketHugeSection,
 } from './sections';
 
 function App() {
@@ -29,7 +31,9 @@ function App() {
 			<FeaturedOnSection />
 			<PressAboutUsSection />
 			<ProblemSolutionSection />
-      <HowItWorksSection />
+			<HowItWorksSection />
+			<CompetitionSection />
+			<MarketHugeSection />
 		</div>
 	);
 }

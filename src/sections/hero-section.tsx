@@ -10,10 +10,10 @@ import { VideoAboutUs } from '../components/video-about-us/video-about-us.compon
 export const HeroSection = () => {
 	const { header, paragraph, button, videoUrl } = heroSection;
 	return (
-		<section className={`bg-background-hero`}>
+		<section className={`bg-hero-golden bg-contain bg-right-top bg-no-repeat`}>
 			<div className={`${styles.sectionHero} flex`}>
 				<div className={` ${styles.section44} text-start"`}>
-					<h1 className={styles.h1}>{header}</h1>
+					<h2 className={`${styles.h2} pb-5`}>{header}</h2>
 					<p>{paragraph}</p>
 
 					<div className="mt-10 flex gap-x-6">
@@ -23,8 +23,10 @@ export const HeroSection = () => {
 						</AnchorButton>
 					</div>
 				</div>
-				<div className={styles.section48}>
-					<VideoAboutUs videoUrl={videoUrl} />
+				<div className={`${styles.section48} `}>
+					<div className="bg-dark-grey-gradient rounded-2xl p-8">
+						<VideoAboutUs videoUrl={videoUrl} />
+					</div>
 				</div>
 			</div>
 		</section>
