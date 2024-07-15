@@ -10,5 +10,6 @@ import { AwardsSection } from './awards-section';
 import { FeaturedOnSection } from './featured-on-section';
 import { PressAboutUsSection } from './press-about-us-section';
 import { ProblemSolutionSection } from './problem-solution-section';
+import { HowItWorksSection } from './how-it-works-section';
 
-export { HeaderSection, HeroSection, StatisticSection, ReasonsToInvestSection, TractionSection, RevenueSection, MilestonesSection , AwardsSection, DownloadInvestorDeckSection, FeaturedOnSection, PressAboutUsSection, ProblemSolutionSection};
+export { HeaderSection, HeroSection, StatisticSection, ReasonsToInvestSection, TractionSection, RevenueSection, MilestonesSection , AwardsSection, DownloadInvestorDeckSection, FeaturedOnSection, PressAboutUsSection, ProblemSolutionSection, HowItWorksSection};

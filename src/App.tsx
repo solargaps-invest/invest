@@ -11,6 +11,7 @@ import {
 	FeaturedOnSection,
 	PressAboutUsSection,
 	ProblemSolutionSection,
+  HowItWorksSection
 } from './sections';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
 			<FeaturedOnSection />
 			<PressAboutUsSection />
 			<ProblemSolutionSection />
+      <HowItWorksSection />
 		</div>
 	);
 }

@@ -12,8 +12,8 @@ export const TractionSection = () => {
 			<SectionHeader header={header} headerStyles={`${styles.h3Padding}`} />
 			<SubTitle subTitle={subTitle} subTitleStyles={`${styles.h4Padding}`} />
 
-			<div className={`${styles.flexSection} items-center`}>
-				<div className={`${styles.section60} flex flex-col gap-6`}>
+			<div className={`${styles.sectionFlex} items-center gap-[13%]`}>
+				<div className={`${styles.section48} flex flex-col gap-6`}>
 					<img src={img.src} alt="" className="max-h-[416px] w-full" />
 					<span className="sr-only">{img.description}</span>
 					<div className="flex flex-wrap items-center justify-center gap-10 gap-y-6">
@@ -23,7 +23,7 @@ export const TractionSection = () => {
 					</div>
 				</div>
 
-				<div className={`${styles.section40} flex flex-col gap-5`}>
+				<div className={`${styles.section37} flex flex-col gap-5`}>
 					<StatisticCard {...installations} />
 					<StatisticCard {...distributor} />
 				</div>

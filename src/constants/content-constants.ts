@@ -45,6 +45,9 @@ import {
 	iconDigitalTends,
 	iconVector,
 	iconCo2Red,
+	imgDrought,
+	imgPanelHome,
+	iconCo2White,
 } from '../assets';
 
 export const navLinks = [
@@ -97,6 +100,7 @@ export const heroSection = {
 	header: `Invest in SolarGaps World's First Smart Solar Blinds`,
 	paragraph:
 		'Smart blinds automatically track the sun, producing energy while keeping your building cool. Using the abundant vertical space, SolarGaps blinds block heat entering through the windows and reduce air conditioning usage.',
+	videoUrl: `https://www.youtube.com/embed/RYkq6ICc4Z8?si=gyE2_oG_UfFlssM_"`,
 };
 export const statisticSection = {
 	cards: [
@@ -294,12 +298,12 @@ export const featuredOnSection = {
 		},
 	],
 };
-// export const howItWorksSection = {
-// 	header: 'How it works',
-// 	paragraph:
-// 		'SolarGaps smart blinds are the first blinds that automatically track the sun and generate electricity from its energy while keeping your apartment or office cool. Installed on the outside of the building, our blinds will not only lower your power bills but also provide active shading to reduce air conditioning usage and consequently, reduce your carbon footprint.',
-// 	video: `${videoPlaceholder}`,
-// };
+export const howItWorksSection = {
+	header: 'How it works',
+	paragraph:
+		'SolarGaps smart blinds are the first blinds that automatically track the sun and generate electricity from its energy while keeping your apartment or office cool. Installed on the outside of the building, our blinds will not only lower your power bills but also provide active shading to reduce air conditioning usage and consequently, reduce your carbon footprint.',
+	videoUrl: `https://www.youtube.com/embed/RYkq6ICc4Z8?si=gyE2_oG_UfFlssM_"`,
+};
 
 export const awardsSection = {
 	header: 'Awards',
@@ -377,13 +381,14 @@ export const pressAboutUsSection = {
 export const problemSolutionSection = {
 	header: 'Problem & Solution',
 	section1: {
-		img: { src: `${imgInterSolar}`, description: '' },
+		img: { src: `${imgDrought}`, description: '' },
 		bullets: [
 			{
 				title: 'Global warming',
 				icon: {
 					src: `${iconCo2Red}`,
 					description: '',
+					background: 'bg-custom-radial',
 				},
 			},
 			{
@@ -391,6 +396,7 @@ export const problemSolutionSection = {
 				icon: {
 					src: `${iconCo2Red}`,
 					description: '',
+					background: 'bg-custom-radial',
 				},
 			},
 			{
@@ -398,18 +404,20 @@ export const problemSolutionSection = {
 				icon: {
 					src: `${iconCo2Red}`,
 					description: '',
+					background: 'bg-custom-radial',
 				},
 			},
 		],
 	},
 	section2: {
-		img: { src: `${imgInterSolar}`, description: '' },
+		img: { src: `${imgPanelHome}`, description: '' },
 		bullets: [
 			{
 				title: 'Reducing carbon footprint',
 				icon: {
-					src: `${iconCO2}`,
+					src: `${iconCo2White}`,
 					description: '',
+					background: 'bg-yellow-gradient',
 				},
 			},
 			{
@@ -417,13 +425,15 @@ export const problemSolutionSection = {
 				icon: {
 					src: `${iconVector}`,
 					description: '',
+					background: 'bg-yellow-gradient',
 				},
 			},
 			{
 				title: 'Smart solution for smart cities',
 				icon: {
-					src: `${iconCO2}`,
+					src: `${iconCo2White}`,
 					description: '',
+					background: 'bg-yellow-gradient',
 				},
 			},
 		],

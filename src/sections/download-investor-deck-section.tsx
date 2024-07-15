@@ -32,7 +32,7 @@ export const DownloadInvestorDeckSection = () => {
 				<SectionHeader header={header} headerStyles={`${styles.h3PaddingSm} text-background-primary`} />
 				<form
 					onSubmit={onSubmit}
-					className="bg-background-primary bg-custom-radial flex max-w-[40.6rem] flex-col gap-6 rounded-2xl border p-12 xl:gap-9"
+					className="bg-background-primary bg-custom-radial flex w-full flex-col gap-6 rounded-2xl border p-12 md:max-w-[75%] lg:max-w-[50%] xl:gap-9"
 				>
 					<input type="hidden" name="_feedback.dark" value="https://your-website.com/thanks" />
 					<div className="flex flex-col flex-wrap justify-between gap-6">

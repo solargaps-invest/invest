@@ -45,6 +45,11 @@ import iconDigitalTends from './icon-digital-tends.svg';
 import iconAttn from './icon-attn.svg';
 import iconVector from './icon-vector.svg';
 import iconCo2Red from './icon-co2-red.svg';
+import imgDrought from './img-drought.jpg';
+import imgPanelHome from './img-panel-home.jpg';
+import iconCo2White from './icon-co2-white.svg';
+
+// TODO: change co2
 export {
 	iconWallet,
 	iconDollar,
@@ -93,4 +98,7 @@ export {
 	iconAttn,
 	iconVector,
 	iconCo2Red,
+	imgDrought,
+	imgPanelHome,
+	iconCo2White,
 };

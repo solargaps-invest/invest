@@ -12,8 +12,16 @@ export const styles = {
 	sectionImgLayout: 'mx-auto max-w-[87rem] my-6 mx-6 xl:mx-14 xl:my-14',
 
 	flexSection: 'flex justify-between flex-wrap gap-5 xl:gap-12',
-	section60: 'w-full  xl:flex-60',
+	sectionFlex: 'flex flex-wrap lg:flex-nowrap',
 	section40: ' w-full  xl:flex-40',
+	section44: ' w-full  xl:flex-44',
+	section37: 'w-full xl:flex-37',
+	section48: 'w-full xl:flex-48',
+
+
+	// sectionGrid: 'grid gap-6 grid-cols-8',
+	// section4: 'col-span-4',
+	// section3: 'col-span-3',
 
 	// h1: `text-5xl xl:text-8xl font-semibold -tracking-[0.012em]`,
 	h1: 'text-3xl xl:text-5xl font-semibold tracking-tight',

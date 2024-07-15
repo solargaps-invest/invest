@@ -38,16 +38,20 @@ export default {
 				'background-building': "url('./assets/bg-building.svg')",
 				'custom-radial': 'radial-gradient(90.63% 73.44% at 50% 0%, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%)',
 				'background-yellow': 'linear-gradient(167.43deg, #FFD562 12.35%, #CB9914 93.89%)',
+				'yellow-gradient':
+					'radial-gradient(271.87% 220.31% at 50% -47.66%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%)',
 			},
 			dropShadow: {
 				hero: ' 0px 12px 24px 0px rgba(249, 205, 86, 0.25)',
 			},
+			// /TODO: rename flex % and remove
 			flex: {
 				20: '1 1 20%',
-				40: '1 1 32%',
+				32: '1 1 32%',
+				37: '1 1 37%',
 				44: '1 1 44%',
-				50: '1 1 50%',
-				60: '1 1 59%',
+				48: '1 1 48%',
+				59: '1 1 59%',
 			},
 			maxWidth: {
 				128: '32rem',

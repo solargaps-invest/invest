@@ -2,16 +2,17 @@ import { IoArrowForward } from 'react-icons/io5';
 import { styles } from '../constants/style-constants';
 import { heroSection } from '../constants/content-constants';
 import { AnchorButton } from '../components/anchor-button/anchor-button.component';
+import { VideoAboutUs } from '../components/video-about-us/video-about-us.component';
 
 // TODO: text content to style
-// TODO:  text yellow 
+// TODO:  text yellow
 
 export const HeroSection = () => {
-	const { header, paragraph, button } = heroSection;
+	const { header, paragraph, button, videoUrl } = heroSection;
 	return (
 		<section className={`bg-background-hero`}>
 			<div className={`${styles.sectionHero} flex`}>
-				<div className="lg:flex-44 w-full text-start">
+				<div className={` ${styles.section44} text-start"`}>
 					<h1 className={styles.h1}>{header}</h1>
 					<p>{paragraph}</p>
 
@@ -22,7 +23,9 @@ export const HeroSection = () => {
 						</AnchorButton>
 					</div>
 				</div>
-				<div className="lg:flex-50 w-full">Video</div>
+				<div className={styles.section48}>
+					<VideoAboutUs videoUrl={videoUrl} />
+				</div>
 			</div>
 		</section>
 	);
