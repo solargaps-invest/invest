@@ -1,7 +1,6 @@
 import { styles } from '../constants/style-constants';
 import { pressAboutUsSection } from '../constants/content-constants';
 import { SectionHeader } from '../components/section-header/section-header.component';
-import { FC } from 'react';
 
 export const PressAboutUsSection = () => {
 	const { header, cards } = pressAboutUsSection;
@@ -12,7 +11,7 @@ export const PressAboutUsSection = () => {
 
 			<div className="grid grid-cols-1">
 				{cards.map(card => (
-					<PressCard key={card.subtitle} card={card} />
+					<PressCard key={card.subtitle} {...card} />
 				))}
 			</div>
 		</section>
@@ -21,23 +20,21 @@ export const PressAboutUsSection = () => {
 
 // TODO: Cards flex: 1 1 auto;
 type PressCardProps = {
-	card: {
-		title: string;
-		subtitle: string;
-		button: string;
-		date: string;
-		img: {
-			src: string;
-			description: string;
-		};
-		linkHref: string;
+	title: string;
+	subtitle: string;
+	button: string;
+	date: string;
+	img: {
+		src: string;
+		description: string;
 	};
+	linkHref: string;
 };
 
 // TODO: update font size
 // TODO: update padding pr-16 to gap between elements
 
-const PressCard: FC<PressCardProps> = ({ card }) => {
+const PressCard = (card: PressCardProps) => {
 	const { title, subtitle, button, date, img, linkHref } = card;
 	return (
 		<div className="border-brand-grey flex flex-col justify-center border-y py-8 lg:flex-row">

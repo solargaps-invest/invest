@@ -18,9 +18,9 @@ import {
 	// imgInverter,
 	// imgMotor,
 	// imgPanel,
-	// loftHome,
-	// ecoHouse,
-	// patio,
+	loftHome,
+	ecoHouse,
+	patio,
 	// exampleHouse,
 	logo,
 	// bgBuilding,
@@ -175,7 +175,7 @@ export const reasonsToInvestSection = {
 export const tractionSection = {
 	id: 'traction',
 	header: 'Traction',
-	subTitle: 'International Presence',
+	subHeader: 'International Presence',
 	cards: {
 		img: {
 			src: `${imgGlobe}`,
@@ -198,7 +198,7 @@ export const tractionSection = {
 };
 
 export const revenueSection = {
-	subTitle: 'Revenue projections',
+	subHeader: 'Revenue projections',
 	img: {
 		src: `${revenueChart}`,
 		description: 'Chat of revenue projections',
@@ -522,31 +522,31 @@ export const marketStructureSection = {
 // 	},
 // };
 
-// export type ForHomeCard = (typeof forHomeSection.cards)[0];
+export const installationsSection = {
+	header: 'Installations',
+}
 
-// export const forHomeSection = {
-// 	id: 'for-home',
-// 	header: 'For home',
-// 	paragraph:
-// 		'SolarGaps smart external blinds are being installed worldwide. At the moment we have more than 300 installations in 35 countries and this number increases every month. Here you will find some photos that show installations in various locations. SolarGaps facade blinds with built-in PV panels is a perfect solution both for homes and businesses. Available in various color solutions, SolarGaps will match any interior and exterior design.',
-// 	cards: [
-// 		{
-// 			title: 'Loft apartment in Hengelo',
-// 			subtitle: 'Netherlands',
-// 			img: { src: `${loftHome}`, description: 'Loft apartment with a glass roof' },
-// 		},
-// 		{
-// 			title: 'Eco House',
-// 			subtitle: 'Lithuania',
-// 			img: { src: `${ecoHouse}`, description: 'Eco house lined with wood' },
-// 		},
-// 		{
-// 			title: 'Patio in Hengelo',
-// 			img: { src: `${patio}`, description: 'Patio made of brick' },
-// 			subtitle: 'Netherlands',
-// 		},
-// 	],
-// };
+export const forHomeSection = {
+	id: 'for-home',
+	subHeader: 'For home',
+	cards: [
+		{
+			title: 'Loft apartment in Hengelo',
+			subtitle: 'Netherlands',
+			img: { src: `${loftHome}`, description: 'Loft apartment with a glass roof' },
+		},
+		{
+			title: 'Eco House',
+			subtitle: 'Lithuania',
+			img: { src: `${ecoHouse}`, description: 'Eco house lined with wood' },
+		},
+		{
+			title: 'Patio in Hengelo',
+			img: { src: `${patio}`, description: 'Patio made of brick' },
+			subtitle: 'Netherlands',
+		},
+	],
+};
 
 // export const imageSection = {
 // 	img: { src: `${bgBuilding}`, description: 'Building with vertical solar' },

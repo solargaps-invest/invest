@@ -4,13 +4,14 @@ import { styles } from '../constants/style-constants';
 import { SubHeader } from '../components/sub-header/sub-header.component';
 import { BulletItem } from '../components/bullet-item/bullet-item.component';
 
+
 export const TractionSection = () => {
-	const { header, cards, subTitle } = tractionSection;
+	const { header, cards, subHeader } = tractionSection;
 	const { distributor, installations, bulletItems, img } = cards;
 	return (
 		<section className={styles.sectionLayout}>
 			<SectionHeader header={header} headerStyles={`${styles.headerPadding}`} />
-			<SubHeader subHeader={subTitle} subHeaderStyles={`${styles.subHeaderPadding}`} />
+			<SubHeader subHeader={subHeader} subHeaderStyles={`${styles.subHeaderPadding}`} />
 
 			<div className={`${styles.sectionFlex} items-center gap-[13%]`}>
 				<div className={`${styles.section48} flex flex-col gap-6`}>

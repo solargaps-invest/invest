@@ -55,6 +55,6 @@
 @media screen and (max-width: 766px) {
 	.slick-track,
 	.slick-list {
-		max-height: 300px;
+		max-height: 17rem;
 	}
 }

@@ -15,5 +15,6 @@ import { CompetitionSection } from './competition-section';
 import { MarketHugeSection } from './market-huge-section';
 import { MarketStructureSection } from './market-structure-section';
 import { OurBusinessModelSection } from './our-business-model-section';
+import { InstallationsSection } from './Installations-section';
 
-export { HeaderSection, HeroSection, StatisticSection, ReasonsToInvestSection, TractionSection, RevenueSection, MilestonesSection , AwardsSection, DownloadInvestorDeckSection, FeaturedOnSection, PressAboutUsSection, ProblemSolutionSection, HowItWorksSection, CompetitionSection, MarketHugeSection, MarketStructureSection, OurBusinessModelSection};
+export { HeaderSection, HeroSection, StatisticSection, ReasonsToInvestSection, TractionSection, RevenueSection, MilestonesSection , AwardsSection, DownloadInvestorDeckSection, FeaturedOnSection, PressAboutUsSection, ProblemSolutionSection, HowItWorksSection, CompetitionSection, MarketHugeSection, MarketStructureSection, OurBusinessModelSection, InstallationsSection};
