@@ -24,7 +24,7 @@ type GeneralSectionType = {
 const GeneralSection = ({ section, sectionStyle, flexStyle }: GeneralSectionType) => {
 	return (
 		<div className={sectionStyle}>
-			<div className={` ${styles.sectionLayout} ${styles.sectionFlex} items-center gap-[13%] ${flexStyle} `}>
+			<div className={` ${styles.sectionLayout} ${styles.sectionFlex} items-center xl:gap-[13%] ${flexStyle} `}>
 				<ul className={` ${styles.section37} flex flex-col gap-8 xl:gap-16`}>
 					{section.bulletItems.map(bulletItem => (
 						<ListItem key={bulletItem.title} {...bulletItem} />

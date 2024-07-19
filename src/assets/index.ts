@@ -49,6 +49,7 @@ import imgDrought from './img-drought.jpg';
 import imgPanelHome from './img-panel-home.jpg';
 import iconCo2White from './icon-co2-white.svg';
 import imgMarketChart from './img-market-chart.svg';
+import imgHomeWindows from './img-home-windows.jpg';
 
 // TODO: change co2
 export {
@@ -102,5 +103,6 @@ export {
 	imgDrought,
 	imgPanelHome,
 	iconCo2White,
-	imgMarketChart
+	imgMarketChart,
+	imgHomeWindows,
 };

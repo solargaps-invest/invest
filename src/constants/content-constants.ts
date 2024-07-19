@@ -49,6 +49,7 @@ import {
 	imgPanelHome,
 	iconCo2White,
 	imgMarketChart,
+	imgHomeWindows,
 } from '../assets';
 
 export const navLinks = [
@@ -482,6 +483,39 @@ export const marketStructureSection = {
 	],
 };
 
+export const ourBusinessModelSection = {
+	header: 'Our Business Model',
+	img: { src: `${imgHomeWindows}`, description: 'Home' },
+	bulletItems: [
+		{ title: 'Developers and Real Estate Investors' },
+		{ title: 'Designers and Architects' },
+		{ title: 'PV systems installers' },
+		{ title: 'HVAC system installers ' },
+		{ title: 'Solar protection systems installers' },
+		{ title: 'Goverment institutions' },
+	],
+	cards: [
+		{
+			title: 'SolarGaps',
+			paragraph1: 'R&D',
+			paragraph2: 'R&Marketing',
+			paragraph3: 'IT Support',
+			paragraph4: '50% margin',
+			paragraph5: '48 USD per sq. ft.',
+			subTitle: 'Retail',
+		},
+		{
+			title: 'Local Partners',
+			paragraph1: 'Sales',
+			paragraph2: 'Installation',
+			paragraph3: 'Maintenance',
+			paragraph4: '45% margin',
+			paragraph5: '39 USD per sq. ft.',
+			subTitle: 'Enterprise',
+		},
+	],
+};
+
 // // TODO: reneme src to img or icon
 
 // export type ProductCard = typeof productsSection.products.blinds;
@@ -524,7 +558,7 @@ export const marketStructureSection = {
 
 export const installationsSection = {
 	header: 'Installations',
-}
+};
 
 export const forHomeSection = {
 	id: 'for-home',

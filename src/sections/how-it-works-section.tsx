@@ -8,7 +8,7 @@ export const HowItWorksSection = () => {
 	return (
 		<section className={styles.sectionLayout}>
 			<SectionHeader header={header} headerStyles={`${styles.headerPaddingSm}`} />
-			<div className={` ${styles.sectionFlex} gap-[13%]`}>
+			<div className={` ${styles.sectionFlex} xl:gap-[13%]`}>
 				<div className={`${styles.section37}`}>
 					<p className="text-sm font-semibold tracking-wide xl:text-base">{paragraph}</p>
 				</div>

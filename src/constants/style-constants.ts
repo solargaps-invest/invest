@@ -9,7 +9,7 @@ export const styles = {
 	sectionImgBg: 'bg-no-repeat bg-cover bg-center',
 	sectionImgLayout: 'mx-auto max-w-[87rem] my-6 mx-6 xl:mx-14 xl:my-14',
 
-	sectionFlex: 'flex flex-wrap lg:flex-nowrap',
+	sectionFlex: 'flex gap-5 flex-wrap lg:flex-nowrap',
 	section40: ' w-full  xl:flex-40',
 	section44: ' w-full  xl:flex-44',
 	section37: 'w-full xl:flex-37',

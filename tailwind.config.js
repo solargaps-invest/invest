@@ -50,6 +50,7 @@ export default {
 				'market-golden': "url('./assets/bg-market-golden.svg')",
 				'dark-grey-gradient':
 					'radial-gradient(232.45% 188.37% at 50% 0%, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 100%)',
+				'dark-yellow': 'radial-gradient(175% 141.81% at 50% 104.31%, #FFCC41 0%, rgba(249, 205, 86, 0) 100%) ',
 			},
 			dropShadow: {
 				hero: ' 0px 12px 24px 0px rgba(249, 205, 86, 0.25)',

@@ -9,11 +9,11 @@ export const MarketStructureSection = () => {
 	return (
 		<section className={styles.sectionLayout}>
 			<SectionHeader header={header} headerStyles={`${styles.headerPaddingSm}`} />
-			<div className={` ${styles.sectionFlex} items-center gap-[13%]`}>
+			<div className={` ${styles.sectionFlex} bg-custom-radial items-center xl:gap-[13%]`}>
 				<div className={`${styles.section37}`}>
 					<img src={img.src} alt="" className="max-h-[465px] w-full object-contain" />
 				</div>
-				<ul className={`${styles.section48} bg-custom-radial flex flex-col gap-12 rounded-2xl px-16 py-14`}>
+				<ul className={`${styles.section48} flex flex-col gap-12 rounded-2xl px-16 py-14`}>
 					{bulletItems.map(bulletItem => (
 						<BulletItem key={bulletItem.title} textStyles={styles.h5} {...bulletItem} />
 					))}
