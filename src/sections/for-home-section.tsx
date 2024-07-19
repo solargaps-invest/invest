@@ -3,9 +3,6 @@ import { forHomeSection } from '../constants/content-constants';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Slider } from '../components/slider/slider.component';
-// import Slider from 'react-slick';
-// import { NextArrow } from '../components/next-arrow/next-arrow.components';
-// import { PrevArrow } from '../components/prev-arrow/prev-arrow.component';
 import { SubHeader } from '../components/sub-header/sub-header.component';
 
 export const ForHomeSection = () => {
@@ -40,13 +37,15 @@ type ForHomeCardProps = {
 	subtitle: string;
 };
 
+// TODO: fix width 
+
 const ForHomeCard = ({ title, img, subtitle }: ForHomeCardProps) => {
 	return (
-		<div className={`relative flex max-h-[220px] min-w-[224px] flex-col pt-[11.5rem] md:max-h-[300px] xl:max-h-[39rem] xl:pt-[28rem]`}>
+		<div className={`relative flex flex-col px-7 pt-[11.5rem] lg:pr-[244px] lg:pt-[28rem]`}>
 			<img
 				src={img.src}
 				alt={img.description}
-				className="absolute left-0 top-0 h-[85%] max-h-[168px] w-full rounded-xl object-cover xl:max-h-fit"
+				className="absolute left-0 top-0 h-[85%] w-full rounded-xl object-cover xl:max-h-fit"
 			/>
 			<h6 className={styles.h6}>{title}</h6>
 			<span className="text-brand-grey-tertiary text-base">{subtitle}</span>
