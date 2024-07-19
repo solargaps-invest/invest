@@ -18,10 +18,10 @@ export const ForHomeSection = () => {
 				slidesToShow={1}
 				slidesToScroll={1}
 				variableWidth={true}
-				className="xl:slider-container max-h-[16.25rem] lg:max-h-80 xl:block xl:max-h-fit xl:w-full"
+				className="slider-container block max-h-fit w-full"
 			>
 				{cards.map((item: ForHomeCardProps) => (
-					<ForHomeCard key={item.title} title={item.title} img={item.img} subtitle={item.subtitle} />
+					<ForHomeCard key={item.title} {...item} />
 				))}
 			</Slider>
 		</section>
@@ -37,17 +37,15 @@ type ForHomeCardProps = {
 	subtitle: string;
 };
 
-// TODO: fix width 
-
 const ForHomeCard = ({ title, img, subtitle }: ForHomeCardProps) => {
 	return (
-		<div className={`relative flex flex-col px-7 pt-[11.5rem] lg:pr-[244px] lg:pt-[28rem]`}>
+		<div className={`relative flex w-[25rem] flex-col pt-[20rem] lg:pt-[28rem]`}>
 			<img
 				src={img.src}
 				alt={img.description}
-				className="absolute left-0 top-0 h-[85%] w-full rounded-xl object-cover xl:max-h-fit"
+				className="mah-h-[29rem] xl:max-[80%] absolute left-0 top-0 h-[80%] w-full rounded-xl object-cover"
 			/>
-			<h6 className={styles.h6}>{title}</h6>
+			<h6 className={`${styles.h6} `}>{title}</h6>
 			<span className="text-brand-grey-tertiary text-base">{subtitle}</span>
 		</div>
 	);
