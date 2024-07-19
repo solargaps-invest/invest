@@ -18,11 +18,11 @@ export default {
 				'dark-grey': ' rgba(255, 255, 255, 0.1)',
 				'brand-blue-primary': 'rgba(27, 231, 255, 1)',
 				'brand-green-primary': '#00FFA3',
-				'bullet-1': '#FDF1D1',
-				'bullet-2': '#FCECBA',
-				'bullet-3': '#F9CD56',
-				'bullet-4': '#F0C759',
-				'bullet-5': '#D8B050',
+				'bullet-1': '#F3CE6B',
+				'bullet-2': '#5CBB3B',
+				'bullet-3': '#52BABC',
+				'bullet-4': '#E13946',
+				'bullet-5': '#375152',
 			},
 			fontSize: {
 				xxs: ['0.75rem', '1.25rem'], //12px - 20px
