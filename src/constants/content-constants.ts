@@ -50,6 +50,11 @@ import {
 	iconCo2White,
 	imgMarketChart,
 	imgHomeWindows,
+	iconQuote,
+	avatar4,
+	avatar3,
+	avatar2,
+	avatar1,
 } from '../assets';
 
 export const navLinks = [
@@ -512,6 +517,60 @@ export const ourBusinessModelSection = {
 			paragraph4: '45% margin',
 			paragraph5: '39 USD per sq. ft.',
 			subTitle: 'Enterprise',
+		},
+	],
+};
+
+export const investorsSection = {
+	header: 'Investors',
+	cards: [
+		{
+			icon: {
+				src: `${iconQuote}`,
+				description: '',
+			},
+			feedback: `I invested in SolarGaps because this will be a GAME CHANGER as the World's First Smart Solar Blinds.`,
+			avatar: {
+				src: `${avatar1}`,
+				description: '',
+			},
+			name: 'Kelvin Cox',
+		},
+		{
+			icon: {
+				src: `${iconQuote}`,
+				description: '',
+			},
+			feedback: `Your company seems to be promising. The type of technology being developed by this startup, it what we'll seek in the future as society.`,
+			avatar: {
+				src: `${avatar2}`,
+				description: '',
+			},
+			name: `José Fernández`,
+		},
+		{
+			icon: {
+				src: `${iconQuote}`,
+				description: '',
+			},
+			feedback: `Great green B2B product with B2C potential, a clear value add & ROI, huge market size.`,
+			avatar: {
+				src: `${avatar3}`,
+				description: '',
+			},
+			name: `Hendrikus Gierman`,
+		},
+		{
+			icon: {
+				src: `${iconQuote}`,
+				description: '',
+			},
+			feedback: `Massive opportunity for the countless glass sky scrapers - residential & commercial both!`,
+			avatar: {
+				src: `${avatar4}`,
+				description: '',
+			},
+			name: `Mason Revelette`,
 		},
 	],
 };

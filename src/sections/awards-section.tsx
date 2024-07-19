@@ -2,23 +2,10 @@ import { styles } from '../constants/style-constants';
 import { awardsSection } from '../constants/content-constants';
 import { SectionHeader } from '../components/section-header/section-header.component';
 import { Icon } from '../components/icon/icon.component';
-import Slider from 'react-slick';
-import { NextArrow } from '../components/next-arrow/next-arrow.components';
-import { PrevArrow } from '../components/prev-arrow/prev-arrow.component';
-
-// TODO: change arrows
+import { Slider } from '../components/slider/slider.component';
 
 export const AwardsSection = () => {
 	const { header, cards } = awardsSection;
-	const settings = {
-		infinite: true,
-		speed: 500,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		variableWidth: true,
-		nextArrow: <NextArrow />,
-		prevArrow: <PrevArrow />,
-	};
 
 	return (
 		<section className={styles.sectionLayout}>
@@ -28,9 +15,16 @@ export const AwardsSection = () => {
 					<AwardCard key={award.title} title={award.title} subtitle={award.subtitle} icon={award.icon} />
 				))}
 			</div>
-			<Slider {...settings} className="3xl:hidden block max-h-[260px] lg:max-h-80">
+			<Slider
+				infinite={true}
+				speed={500}
+				slidesToShow={1}
+				slidesToScroll={1}
+				variableWidth={true}
+				className={`3xl:hidden block max-h-[20rem]`}
+			>
 				{cards.map(item => (
-					<AwardCard key={item.title} title={item.title} subtitle={item.subtitle} icon={item.icon} />
+					<AwardCard key={item.title} {...item} />
 				))}
 			</Slider>
 		</section>

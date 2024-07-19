@@ -18,6 +18,7 @@ import {
 	MarketStructureSection,
 	OurBusinessModelSection,
 	InstallationsSection,
+	InvestorsSection,
 } from './sections';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
 			<RevenueSection />
 			<MilestonesSection />
 			<AwardsSection />
+			<InvestorsSection />
 			<DownloadInvestorDeckSection />
 			<FeaturedOnSection />
 			<PressAboutUsSection />
@@ -42,7 +44,7 @@ function App() {
 			<DownloadInvestorDeckSection />
 			<OurBusinessModelSection />
 			<InstallationsSection />
-      <Footer/>
+			<Footer />
 		</div>
 	);
 }

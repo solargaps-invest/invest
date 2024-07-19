@@ -50,6 +50,11 @@ import imgPanelHome from './img-panel-home.jpg';
 import iconCo2White from './icon-co2-white.svg';
 import imgMarketChart from './img-market-chart.svg';
 import imgHomeWindows from './img-home-windows.jpg';
+import iconQuote from './icon-quote.svg';
+import avatar4 from './avatar-4.svg';
+import avatar3 from './avatar-3.svg';
+import avatar2 from './avatar-2.svg';
+import avatar1 from './avatar-1.svg';
 
 // TODO: change co2
 export {
@@ -105,4 +110,9 @@ export {
 	iconCo2White,
 	imgMarketChart,
 	imgHomeWindows,
+	iconQuote,
+	avatar4,
+	avatar3,
+	avatar2,
+	avatar1,
 };
