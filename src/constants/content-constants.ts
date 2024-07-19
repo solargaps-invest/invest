@@ -706,7 +706,7 @@ export const forHomeSection = {
 // 	],
 // };
 
-// export const footer = {
-// 	address: '2810 N Church St\nPMB 32367\nWilmington, Delaware 19802-4447',
-// 	email: 'hello@solargaps.com',
-// };
+export const footer = {
+	address: '2810 N Church St\nPMB 32367\nWilmington, Delaware 19802-4447',
+	email: 'hello@solargaps.com',
+};

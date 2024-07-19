@@ -1,3 +1,4 @@
+import { Footer } from './components/footer/footer.component';
 import {
 	HeaderSection,
 	HeroSection,
@@ -41,6 +42,7 @@ function App() {
 			<DownloadInvestorDeckSection />
 			<OurBusinessModelSection />
 			<InstallationsSection />
+      <Footer/>
 		</div>
 	);
 }
